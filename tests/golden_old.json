@@ -1,0 +1,132 @@
+[
+  {
+    "q": "How many IPL runs has Kohli scored?",
+    "tool": "batting_stats",
+    "expected": 9336
+  },
+  {
+    "q": "What is Kohli's strike rate in the death overs?",
+    "tool": "batting_stats",
+    "expected": 188.38
+  },
+  {
+    "q": "How many IPL runs has Rohit Sharma scored?",
+    "tool": "batting_stats",
+    "expected": 7329
+  },
+  {
+    "q": "What is Rohit Sharma's strike rate in the death overs?",
+    "tool": "batting_stats",
+    "expected": 181.14
+  },
+  {
+    "q": "How many IPL runs has MS Dhoni scored?",
+    "tool": "batting_stats",
+    "expected": 5439
+  },
+  {
+    "q": "What is MS Dhoni's strike rate in the death overs?",
+    "tool": "batting_stats",
+    "expected": 174.97
+  },
+  {
+    "q": "How many IPL runs has Suryakumar Yadav scored?",
+    "tool": "batting_stats",
+    "expected": 4581
+  },
+  {
+    "q": "What is Suryakumar Yadav's strike rate in the death overs?",
+    "tool": "batting_stats",
+    "expected": 178.21
+  },
+  {
+    "q": "How many IPL runs has Jos Buttler scored?",
+    "tool": "batting_stats",
+    "expected": 4646
+  },
+  {
+    "q": "What is Jos Buttler's strike rate in the death overs?",
+    "tool": "batting_stats",
+    "expected": 192.81
+  },
+  {
+    "q": "How many IPL runs has Hardik Pandya scored?",
+    "tool": "batting_stats",
+    "expected": 2955
+  },
+  {
+    "q": "What is Hardik Pandya's strike rate in the death overs?",
+    "tool": "batting_stats",
+    "expected": 168.72
+  },
+  {
+    "q": "How many IPL wickets has Bumrah taken?",
+    "tool": "bowling_stats",
+    "expected": 187
+  },
+  {
+    "q": "What is Bumrah's economy rate in the powerplay?",
+    "tool": "bowling_stats",
+    "expected": 6.94
+  },
+  {
+    "q": "How many IPL wickets has Chahal taken?",
+    "tool": "bowling_stats",
+    "expected": 233
+  },
+  {
+    "q": "What is Chahal's economy rate in the powerplay?",
+    "tool": "bowling_stats",
+    "expected": 7.87
+  },
+  {
+    "q": "How many IPL wickets has Rashid Khan taken?",
+    "tool": "bowling_stats",
+    "expected": 179
+  },
+  {
+    "q": "What is Rashid Khan's economy rate in the powerplay?",
+    "tool": "bowling_stats",
+    "expected": 7.62
+  },
+  {
+    "q": "How many IPL wickets has Jadeja taken?",
+    "tool": "bowling_stats",
+    "expected": 180
+  },
+  {
+    "q": "What is Jadeja's economy rate in the powerplay?",
+    "tool": "bowling_stats",
+    "expected": 8.25
+  },
+  {
+    "q": "How many IPL wickets has Bhuvneshwar Kumar taken?",
+    "tool": "bowling_stats",
+    "expected": 226
+  },
+  {
+    "q": "What is Bhuvneshwar Kumar's economy rate in the powerplay?",
+    "tool": "bowling_stats",
+    "expected": 6.55
+  },
+  {
+    "q": "How many runs has Kohli scored against Bumrah?",
+    "tool": "batter_vs_bowler",
+    "expected": 159
+  },
+  {
+    "q": "How many runs has Rohit Sharma scored against Rashid Khan?",
+    "tool": "batter_vs_bowler",
+    "expected": 56
+  },
+  {
+    "q": "How many runs has MS Dhoni scored against Chahal?",
+    "tool": "batter_vs_bowler",
+    "expected": 108
+  },
+  {
+    "q": "How many runs has Suryakumar Yadav scored against Jadeja?",
+    "tool": "batter_vs_bowler",
+    "expected": 88
+  }
+]

@@ -1,0 +1,15 @@
+fastapi
+uvicorn[standard]
+pydantic
+duckdb
+pandas
+pyarrow
+rapidfuzz
+langgraph
+langchain-core
+langchain-groq
+chromadb
+sentence-transformers
+requests
+python-dotenv
+pytestslowapi

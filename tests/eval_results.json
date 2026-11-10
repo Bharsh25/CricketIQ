@@ -1,0 +1,462 @@
+[
+  {
+    "q": "How many IPL runs has Kohli scored?",
+    "tool_ok": true,
+    "answer_ok": true,
+    "tools": [
+      {
+        "name": "batting_stats",
+        "args": {
+          "player": "Virat Kohli"
+        },
+        "output": "{\"player\": \"V Kohli\", \"phase\": null, \"venue\": null, \"season\": null, \"matches\": 275, \"runs\": 9336, \"balls\": 6926, \"average\": 40.77, \"strike_rate\": 134.8, \"fours\": 845, \"sixes\": 317}"
+      }
+    ],
+    "expected": 9336,
+    "answer": "Virat Kohli has scored **9,336 runs** in IPL matches.",
+    "latency_s": 1.2
+  },
+  {
+    "q": "What is Kohli's strike rate in the death overs?",
+    "tool_ok": true,
+    "answer_ok": true,
+    "tools": [
+      {
+        "name": "batting_stats",
+        "args": {
+          "phase": "death",
+          "player": "Virat Kohli"
+        },
+        "output": "{\"player\": \"V Kohli\", \"phase\": \"death\", \"venue\": null, \"season\": null, \"matches\": 96, \"runs\": 1573, \"balls\": 835, \"average\": 26.22, \"strike_rate\": 188.38, \"fours\": 119, \"sixes\": 93}"
+      }
+    ],
+    "expected": 188.38,
+    "answer": "**188.38**",
+    "latency_s": 1.7
+  },
+  {
+    "q": "How many IPL runs has Rohit Sharma scored?",
+    "tool_ok": true,
+    "answer_ok": true,
+    "tools": [
+      {
+        "name": "batting_stats",
+        "args": {
+          "player": "Rohit Sharma"
+        },
+        "output": "{\"player\": \"RG Sharma\", \"phase\": null, \"venue\": null, \"season\": null, \"matches\": 275, \"runs\": 7329, \"balls\": 5514, \"average\": 30.16, \"strike_rate\": 132.92, \"fours\": 661, \"sixes\": 324}"
+      }
+    ],
+    "expected": 7329,
+    "answer": "Rohit Sharma has scored **7,329 runs** in IPL matches.",
+    "latency_s": 1.2
+  },
+  {
+    "q": "What is Rohit Sharma's strike rate in the death overs?",
+    "tool_ok": true,
+    "answer_ok": true,
+    "tools": [
+      {
+        "name": "batting_stats",
+        "args": {
+          "phase": "death",
+          "player": "Rohit Sharma"
+        },
+        "output": "{\"player\": \"RG Sharma\", \"phase\": \"death\", \"venue\": null, \"season\": null, \"matches\": 90, \"runs\": 1527, \"balls\": 843, \"average\": 24.63, \"strike_rate\": 181.14, \"fours\": 127, \"sixes\": 93}"
+      }
+    ],
+    "expected": 181.14,
+    "answer": "Rohit Sharma\u2019s IPL death\u2011over strike rate is **181.14** (1527 runs off 843 balls).",
+    "latency_s": 1.0
+  },
+  {
+    "q": "How many IPL runs has MS Dhoni scored?",
+    "tool_ok": true,
+    "answer_ok": true,
+    "tools": [
+      {
+        "name": "batting_stats",
+        "args": {
+          "player": "MS Dhoni"
+        },
+        "output": "{\"player\": \"MS Dhoni\", \"phase\": null, \"venue\": null, \"season\": null, \"matches\": 241, \"runs\": 5439, \"balls\": 3957, \"average\": 39.13, \"strike_rate\": 137.45, \"fours\": 375, \"sixes\": 264}"
+      }
+    ],
+    "expected": 5439,
+    "answer": "MS Dhoni has scored **5,439 runs** in IPL matches.",
+    "latency_s": 13.1
+  },
+  {
+    "q": "What is MS Dhoni's strike rate in the death overs?",
+    "tool_ok": true,
+    "answer_ok": true,
+    "tools": [
+      {
+        "name": "batting_stats",
+        "args": {
+          "phase": "death",
+          "player": "MS Dhoni"
+        },
+        "output": "{\"player\": \"MS Dhoni\", \"phase\": \"death\", \"venue\": null, \"season\": null, \"matches\": 197, \"runs\": 3468, \"balls\": 1982, \"average\": 35.39, \"strike_rate\": 174.97, \"fours\": 252, \"sixes\": 208}"
+      }
+    ],
+    "expected": 174.97,
+    "answer": "MS Dhoni\u2019s death\u2011over strike rate is **174.97** (3468 runs off 1982 balls).",
+    "latency_s": 7.2
+  },
+  {
+    "q": "How many IPL runs has Suryakumar Yadav scored?",
+    "tool_ok": true,
+    "answer_ok": true,
+    "tools": [
+      {
+        "name": "batting_stats",
+        "args": {
+          "player": "Suryakumar Yadav"
+        },
+        "output": "{\"player\": \"SA Yadav\", \"phase\": null, \"venue\": null, \"season\": null, \"matches\": 164, \"runs\": 4581, \"balls\": 3083, \"average\": 34.7, \"strike_rate\": 148.59, \"fours\": 482, \"sixes\": 178}"
+      }
+    ],
+    "expected": 4581,
+    "answer": "Suryakumar Yadav has scored **4,581 runs** in IPL matches.",
+    "latency_s": 13.2
+  },
+  {
+    "q": "What is Suryakumar Yadav's strike rate in the death overs?",
+    "tool_ok": true,
+    "answer_ok": true,
+    "tools": [
+      {
+        "name": "batting_stats",
+        "args": {
+          "phase": "death",
+          "player": "Suryakumar Yadav"
+        },
+        "output": "{\"player\": \"SA Yadav\", \"phase\": \"death\", \"venue\": null, \"season\": null, \"matches\": 67, \"runs\": 834, \"balls\": 468, \"average\": 19.4, \"strike_rate\": 178.21, \"fours\": 84, \"sixes\": 46}"
+      }
+    ],
+    "expected": 178.21,
+    "answer": "Suryakumar Yadav\u2019s death\u2011over strike rate is **178.21** (834 runs off 468 balls in 67 matches).",
+    "latency_s": 7.1
+  },
+  {
+    "q": "How many IPL runs has Jos Buttler scored?",
+    "tool_ok": true,
+    "answer_ok": true,
+    "tools": [
+      {
+        "name": "batting_stats",
+        "args": {
+          "player": "Jos Buttler"
+        },
+        "output": "{\"player\": \"JC Buttler\", \"phase\": null, \"venue\": null, \"season\": null, \"matches\": 136, \"runs\": 4646, \"balls\": 3103, \"average\": 40.75, \"strike_rate\": 149.73, \"fours\": 459, \"sixes\": 211}"
+      }
+    ],
+    "expected": 4646,
+    "answer": "Jos Buttler has scored **4,646 runs** in IPL matches.",
+    "latency_s": 13.4
+  },
+  {
+    "q": "What is Jos Buttler's strike rate in the death overs?",
+    "tool_ok": true,
+    "answer_ok": true,
+    "tools": [
+      {
+        "name": "batting_stats",
+        "args": {
+          "phase": "death",
+          "player": "Jos Buttler"
+        },
+        "output": "{\"player\": \"JC Buttler\", \"phase\": \"death\", \"venue\": null, \"season\": null, \"matches\": 45, \"runs\": 804, \"balls\": 417, \"average\": 30.92, \"strike_rate\": 192.81, \"fours\": 60, \"sixes\": 53}"
+      }
+    ],
+    "expected": 192.81,
+    "answer": "Jos Buttler\u2019s death\u2011over strike rate in IPL is **192.81** (804 runs off 417 balls in 45 matches).",
+    "latency_s": 13.1
+  },
+  {
+    "q": "How many IPL runs has Hardik Pandya scored?",
+    "tool_ok": true,
+    "answer_ok": true,
+    "tools": [
+      {
+        "name": "batting_stats",
+        "args": {
+          "player": "Hardik Pandya"
+        },
+        "output": "{\"player\": \"HH Pandya\", \"phase\": null, \"venue\": null, \"season\": null, \"matches\": 150, \"runs\": 2955, \"balls\": 2020, \"average\": 28.41, \"strike_rate\": 146.29, \"fours\": 228, \"sixes\": 156}"
+      }
+    ],
+    "expected": 2955,
+    "answer": "Hardik Pandya has scored **2,955 runs** in the IPL across **150 matches**.  \n- Batting average: 28.41  \n- Strike rate: 146.29  \n- Boundaries: 228 fours and 156 sixes.",
+    "latency_s": 7.2
+  },
+  {
+    "q": "What is Hardik Pandya's strike rate in the death overs?",
+    "tool_ok": true,
+    "answer_ok": true,
+    "tools": [
+      {
+        "name": "batting_stats",
+        "args": {
+          "phase": "death",
+          "player": "Hardik Pandya"
+        },
+        "output": "{\"player\": \"HH Pandya\", \"phase\": \"death\", \"venue\": null, \"season\": null, \"matches\": 106, \"runs\": 1510, \"balls\": 895, \"average\": 23.97, \"strike_rate\": 168.72, \"fours\": 106, \"sixes\": 98}"
+      }
+    ],
+    "expected": 168.72,
+    "answer": "Hardik Pandya\u2019s death\u2011over strike rate is **168.72** (1510 runs off 895 balls in 106 matches).",
+    "latency_s": 8.7
+  },
+  {
+    "q": "How many IPL wickets has Bumrah taken?",
+    "tool_ok": true,
+    "answer_ok": true,
+    "tools": [
+      {
+        "name": "bowling_stats",
+        "args": {
+          "player": "Jasprit Bumrah"
+        },
+        "output": "{\"player\": \"JJ Bumrah\", \"phase\": null, \"venue\": null, \"season\": null, \"matches\": 158, \"wickets\": 187, \"legal_balls\": 3631, \"runs_conceded\": 4441, \"economy\": 7.34, \"bowling_average\": 23.75}"
+      }
+    ],
+    "expected": 187,
+    "answer": "Jasprit Bumrah has taken **187 wickets** in IPL matches.",
+    "latency_s": 11.8
+  },
+  {
+    "q": "What is Bumrah's economy rate in the powerplay?",
+    "tool_ok": true,
+    "answer_ok": true,
+    "tools": [
+      {
+        "name": "bowling_stats",
+        "args": {
+          "phase": "powerplay",
+          "player": "J Bumrah"
+        },
+        "output": "{\"player\": \"JJ Bumrah\", \"phase\": \"powerplay\", \"venue\": null, \"season\": null, \"matches\": 150, \"wickets\": 40, \"legal_balls\": 1266, \"runs_conceded\": 1465, \"economy\": 6.94, \"bowling_average\": 36.62}"
+      }
+    ],
+    "expected": 6.94,
+    "answer": "Bumrah\u2019s economy rate in the powerplay is **6.94 runs per over**.",
+    "latency_s": 8.1
+  },
+  {
+    "q": "How many IPL wickets has Chahal taken?",
+    "tool_ok": true,
+    "answer_ok": true,
+    "tools": [
+      {
+        "name": "bowling_stats",
+        "args": {
+          "player": "YS Chahal"
+        },
+        "output": "{\"player\": \"YS Chahal\", \"phase\": null, \"venue\": null, \"season\": null, \"matches\": 184, \"wickets\": 233, \"legal_balls\": 4037, \"runs_conceded\": 5417, \"economy\": 8.05, \"bowling_average\": 23.25}"
+      }
+    ],
+    "expected": 233,
+    "answer": "YS Chahal has taken **233 wickets** in IPL matches.",
+    "latency_s": 8.7
+  },
+  {
+    "q": "What is Chahal's economy rate in the powerplay?",
+    "tool_ok": true,
+    "answer_ok": true,
+    "tools": [
+      {
+        "name": "bowling_stats",
+        "args": {
+          "phase": "powerplay",
+          "player": "YS Chahal"
+        },
+        "output": "{\"player\": \"YS Chahal\", \"phase\": \"powerplay\", \"venue\": null, \"season\": null, \"matches\": 50, \"wickets\": 18, \"legal_balls\": 404, \"runs_conceded\": 530, \"economy\": 7.87, \"bowling_average\": 29.44}"
+      }
+    ],
+    "expected": 7.87,
+    "answer": "YS Chahal\u2019s economy rate in the powerplay is **7.87**.",
+    "latency_s": 6.5
+  },
+  {
+    "q": "How many IPL wickets has Rashid Khan taken?",
+    "tool_ok": true,
+    "answer_ok": true,
+    "tools": [
+      {
+        "name": "bowling_stats",
+        "args": {
+          "phase": null,
+          "player": "Rashid Khan",
+          "season": null,
+          "venue": null
+        },
+        "output": "{\"player\": \"Rashid Khan\", \"phase\": null, \"venue\": null, \"season\": null, \"matches\": 153, \"wickets\": 179, \"legal_balls\": 3530, \"runs_conceded\": 4282, \"economy\": 7.28, \"bowling_average\": 23.92}"
+      }
+    ],
+    "expected": 179,
+    "answer": "Rashid Khan has taken **179 wickets** in IPL matches.",
+    "latency_s": 1.0
+  },
+  {
+    "q": "What is Rashid Khan's economy rate in the powerplay?",
+    "tool_ok": true,
+    "answer_ok": true,
+    "tools": [
+      {
+        "name": "bowling_stats",
+        "args": {
+          "phase": "powerplay",
+          "player": "Rashid Khan"
+        },
+        "output": "{\"player\": \"Rashid Khan\", \"phase\": \"powerplay\", \"venue\": null, \"season\": null, \"matches\": 56, \"wickets\": 15, \"legal_balls\": 348, \"runs_conceded\": 442, \"economy\": 7.62, \"bowling_average\": 29.47}"
+      }
+    ],
+    "expected": 7.62,
+    "answer": "Rashid Khan\u2019s economy rate in the powerplay is **7.62 runs per over**.",
+    "latency_s": 8.0
+  },
+  {
+    "q": "How many IPL wickets has Jadeja taken?",
+    "tool_ok": true,
+    "answer_ok": true,
+    "tools": [
+      {
+        "name": "bowling_stats",
+        "args": {
+          "player": "R Jadeja"
+        },
+        "output": "{\"player\": \"RA Jadeja\", \"phase\": null, \"venue\": null, \"season\": null, \"matches\": 237, \"wickets\": 180, \"legal_balls\": 4254, \"runs_conceded\": 5465, \"economy\": 7.71, \"bowling_average\": 30.36}"
+      }
+    ],
+    "expected": 180,
+    "answer": "Jadeja has taken **180 wickets** in IPL matches.",
+    "latency_s": 6.8
+  },
+  {
+    "q": "What is Jadeja's economy rate in the powerplay?",
+    "tool_ok": true,
+    "answer_ok": true,
+    "tools": [
+      {
+        "name": "bowling_stats",
+        "args": {
+          "phase": "powerplay",
+          "player": "R Jadeja"
+        },
+        "output": "{\"player\": \"RA Jadeja\", \"phase\": \"powerplay\", \"venue\": null, \"season\": null, \"matches\": 19, \"wickets\": 6, \"legal_balls\": 144, \"runs_conceded\": 198, \"economy\": 8.25, \"bowling_average\": 33.0}"
+      }
+    ],
+    "expected": 8.25,
+    "answer": "Jadeja\u2019s economy rate in the powerplay is **8.25 runs per over**.",
+    "latency_s": 7.5
+  },
+  {
+    "q": "How many IPL wickets has Bhuvneshwar Kumar taken?",
+    "tool_ok": true,
+    "answer_ok": true,
+    "tools": [
+      {
+        "name": "bowling_stats",
+        "args": {
+          "player": "Bhuvneshwar Kumar"
+        },
+        "output": "{\"player\": \"B Kumar\", \"phase\": null, \"venue\": null, \"season\": null, \"matches\": 206, \"wickets\": 226, \"legal_balls\": 4600, \"runs_conceded\": 5913, \"economy\": 7.71, \"bowling_average\": 26.16}"
+      }
+    ],
+    "expected": 226,
+    "answer": "Bhuvneshwar Kumar has taken **226 wickets** in IPL matches.",
+    "latency_s": 13.8
+  },
+  {
+    "q": "What is Bhuvneshwar Kumar's economy rate in the powerplay?",
+    "tool_ok": true,
+    "answer_ok": true,
+    "tools": [
+      {
+        "name": "bowling_stats",
+        "args": {
+          "phase": "powerplay",
+          "player": "Bhuvneshwar Kumar"
+        },
+        "output": "{\"player\": \"B Kumar\", \"phase\": \"powerplay\", \"venue\": null, \"season\": null, \"matches\": 205, \"wickets\": 97, \"legal_balls\": 2543, \"runs_conceded\": 2778, \"economy\": 6.55, \"bowling_average\": 28.64}"
+      }
+    ],
+    "expected": 6.55,
+    "answer": "Bhuvneshwar Kumar\u2019s economy rate in the powerplay is **6.55**.",
+    "latency_s": 7.0
+  },
+  {
+    "q": "How many runs has Kohli scored against Bumrah?",
+    "tool_ok": true,
+    "answer_ok": true,
+    "tools": [
+      {
+        "name": "batter_vs_bowler",
+        "args": {
+          "batter": "Virat Kohli",
+          "bowler": "Bumrah"
+        },
+        "output": "{\"batter\": \"V Kohli\", \"bowler\": \"JJ Bumrah\", \"runs\": 159, \"balls\": 108, \"dismissals\": 5, \"strike_rate\": 147.22}"
+      }
+    ],
+    "expected": 159,
+    "answer": "Virat Kohli has scored **159 runs** against Jasprit Bumrah.",
+    "latency_s": 13.1
+  },
+  {
+    "q": "How many runs has Rohit Sharma scored against Rashid Khan?",
+    "tool_ok": true,
+    "answer_ok": true,
+    "tools": [
+      {
+        "name": "batter_vs_bowler",
+        "args": {
+          "batter": "Rohit Sharma",
+          "bowler": "Rashid Khan"
+        },
+        "output": "{\"batter\": \"RG Sharma\", \"bowler\": \"Rashid Khan\", \"runs\": 56, \"balls\": 44, \"dismissals\": 4, \"strike_rate\": 127.27}"
+      }
+    ],
+    "expected": 56,
+    "answer": "Rohit Sharma has scored **56 runs** against Rashid Khan (56 runs off 44 balls, 4 dismissals, strike rate 127.27).",
+    "latency_s": 7.3
+  },
+  {
+    "q": "How many runs has MS Dhoni scored against Chahal?",
+    "tool_ok": true,
+    "answer_ok": true,
+    "tools": [
+      {
+        "name": "batter_vs_bowler",
+        "args": {
+          "batter": "MS Dhoni",
+          "bowler": "YS Chahal"
+        },
+        "output": "{\"batter\": \"MS Dhoni\", \"bowler\": \"YS Chahal\", \"runs\": 108, \"balls\": 82, \"dismissals\": 4, \"strike_rate\": 131.71}"
+      }
+    ],
+    "expected": 108,
+    "answer": "MS Dhoni has scored **108 runs** off 82 balls against YS Chahal (4 dismissals, strike rate 131.71).",
+    "latency_s": 2.0
+  },
+  {
+    "q": "How many runs has Suryakumar Yadav scored against Jadeja?",
+    "tool_ok": true,
+    "answer_ok": true,
+    "tools": [
+      {
+        "name": "batter_vs_bowler",
+        "args": {
+          "batter": "Suryakumar Yadav",
+          "bowler": "Jadeja"
+        },
+        "output": "{\"batter\": \"SA Yadav\", \"bowler\": \"RA Jadeja\", \"runs\": 88, \"balls\": 81, \"dismissals\": 3, \"strike_rate\": 108.64}"
+      }
+    ],
+    "expected": 88,
+    "answer": "Suryakumar Yadav has scored **88 runs** off 81 balls against Ravindra Jadeja.",
+    "latency_s": 7.0
+  }
+]
