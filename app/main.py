@@ -18,7 +18,23 @@ from app.tools.registry import TOOLS
 log = logging.getLogger("cricketiq")
 DAILY_CAP = int(os.getenv("DAILY_CAP", "300"))
 
-app = FastAPI(title="CricketIQ API")
+from contextlib import asynccontextmanager
+
+def _warm_up():
+    try:
+        from app.tools.rag import _get
+        model, _ = _get()
+        model.encode(["warm up"])
+        log.info("RAG model warmed up")
+    except Exception:
+        log.exception("warm-up failed")
+
+@asynccontextmanager
+async def lifespan(app):
+    threading.Thread(target=_warm_up, daemon=True).start()
+    yield
+
+app = FastAPI(title="CricketIQ API", lifespan=lifespan)
 
 
 # ---------- abuse protection ----------

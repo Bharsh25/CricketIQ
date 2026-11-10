@@ -1159,3 +1159,11 @@ td {
     transition: none;
   }
 }
+.brand, .link { white-space: nowrap; }
+@media (max-width: 480px) {
+  .top-left, .top-right { gap: 8px; }
+  .brand { gap: 8px; font-size: 1.1rem; }
+  .ball { width: 22px; height: 22px; }
+  .link { padding: 8px 14px; font-size: .85rem; }
+  .long { display: none; }
+}
