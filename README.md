@@ -6,7 +6,7 @@ An AI agent that answers questions about IPL cricket from ball-by-ball data. Ask
 
 The demo runs on a free tier. The first request after a quiet period can take up to a minute while the service wakes up, and conversation memory resets when it redeploys.
 
-![CricketIQ interface]<img width="1917" height="916" alt="Screenshot 2026-11-10 174413" src="https://github.com/user-attachments/assets/6649cfdc-75f8-415c-84de-86f5c9c54288" />
+[CricketIQ interface]<img width="1917" height="916" alt="Screenshot 2026-11-10 174413" src="https://github.com/user-attachments/assets/6649cfdc-75f8-415c-84de-86f5c9c54288" />
 
 
 ## Example questions
